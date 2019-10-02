@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scatalog>
+
+	<serie id="0001">
+		<title>Game of Thrones</title>
+		<genre>American drama series</genre>
+		<rating>
+			<name>IMDb</name>
+			<value>9.5</value>
+		</rating>
+		<rating>
+			<name>HBOU</name>
+			<value>3</value>
+		</rating>
+		<rating>
+			<name>RT</name>
+			<value>95</value>
+		</rating>
+		<description>George R.R. Martin's best-selling book series "A Song of
+			Ice and Fire" is brought to the screen as HBO sinks its considerable
+			storytelling teeth into the medieval fantasy epic. It's the depiction
+			of two powerful families -- kings and queens, knights and renegades,
+			liars and honest men -- playing a deadly game for control of the
+			Seven Kingdoms of Westeros, and to sit atop the Iron Throne.
+		</description>
+		<firstEp>2011-04-17</firstEp>
+		<song>Game of Thrones Theme</song>
+		<network>HBO</network>
+		<writer>George R. R. Martin</writer>
+		<writer>David Benioff</writer>
+		<writer>D. B. Weiss</writer>
+		<writer>Bryan Cogman</writer>
+		<writer>Jane Espenson</writer>
+		<writer>Vanessa Taylor</writer>
+		<writer>Dave Hill</writer>
+		<episode>
+			<number>10</number>
+			<name>The Winds of Winter</name>
+			<season>6</season>
+			<airDate>2016-06-26</airDate>
+		</episode>
+		<episode>
+			<number>9</number>
+			<name>Battle of Bastards</name>
+			<season>6</season>
+			<airDate>2016-06-19</airDate>
+		</episode>
+		<episode>
+			<number>8</number>
+			<name>No One</name>
+			<season>6</season>
+			<airDate>2016-06-12</airDate>
+		</episode>
+		<availableOn>
+			<platform>Youtube</platform>
+			<price>1.89</price>
+		</availableOn>
+		<availableOn>
+			<platform>Google Play Movies and TV</platform>
+			<price>1.89</price>
+		</availableOn>
+		<profile>
+			<socialNetwork>Facebook</socialNetwork>
+			<link>https://www.facebook.com/GameOfThrones</link>
+		</profile>
+		<profile>
+			<socialNetwork>Twitter</socialNetwork>
+			<link>https://twitter.com/gameofthrones</link>
+		</profile>
+		<profile>
+			<socialNetwork>Instagram</socialNetwork>
+			<link>http://www.instagram.com/gameofthrones</link>
+		</profile>
+		<profile>
+			<socialNetwork>Google+</socialNetwork>
+			<link>plus.google.com/+gameofthrones</link>
+		</profile>
+		<actor>
+			<name>Emilia Clarke</name>
+			<charName>Daenerys Targaryen</charName>
+		</actor>
+		<actor>
+			<name>Sophie Turner</name>
+			<charName>Sansa Stark</charName>
+		</actor>
+		<actor>
+			<name>Kit Harington</name>
+			<charName>Jon Snow</charName>
+		</actor>
+		<actor>
+			<name>Maisie Williams</name>
+			<charName>Arya Stark</charName>
+		</actor>
+		<actor>
+			<name>Lena Headey</name>
+			<charName>Cersei Lannister</charName>
+		</actor>
+		<search>
+			<name>Once Upon a Time</name>
+			<dateStart>2011</dateStart>
+
+		</search>
+		<search>
+			<name>After the Thrones</name>
+			<dateStart>2016</dateStart>
+
+		</search>
+		<search>
+			<name>True Blood</name>
+			<dateStart>2008</dateStart>
+			<dateEnd>2014</dateEnd>
+		</search>
+		<search>
+			<name>The Shannara Chronicles</name>
+			<dateStart>2016</dateStart>
+
+		</search>
+		<search>
+			<name>The Walking Dead</name>
+			<dateStart>2010</dateStart>
+
+		</search>
+		<nEps>60</nEps>
+		<nSeasons>6</nSeasons>
+	</serie>
+
+	<serie id="0002">
+		<title>Westworld</title>
+		<genre>American thriller series</genre>
+		<rating>
+			<name>IMDb</name>
+			<value>9.1</value>
+		</rating>
+		<rating>
+			<name>Tvcom</name>
+			<value>9</value>
+		</rating>
+		<rating>
+			<name>RT</name>
+			<value>89</value>
+		</rating>
+		<description>Westworld isn't your typical amusement park. Intended for
+			rich vacationers, the futuristic park -- which is looked after by
+			robotic "hosts" -- allows its visitors to live out their fantasies
+			through artificial consciousness. No matter how illicit the fantasy
+			may be, there are no consequences for the park's guests, allowing for
+			any wish to be indulged. "Westworld" -- which is based on the 1973
+			Michael Crichton movie of the same name -- features an all-star cast
+			that includes Oscar winner Anthony Hopkins and Golden Globe winner Ed
+			Harris.
+		</description>
+		<network>HBO</network>
+		<writer>Jonathan Nolan</writer>
+		<writer>Lisa Joy</writer>
+		<writer>Halley Wegryn Gross</writer>
+		<director>Jonathan Nolan</director>
+		<director>Richard J. Lewis</director>
+		<director>Michael Crichton</director>
+		<creator>Jonathan Nolan</creator>
+		<creator>Lisa Joy</creator>
+		<episode>
+			<number>10</number>
+			<name>The Bicameral Mind</name>
+			<season>1</season>
+			<airDate>2016-12-04</airDate>
+		</episode>
+		<episode>
+			<number>9</number>
+			<name>The Well-Tempered Clavier</name>
+			<season>1</season>
+			<airDate>2016-11-27</airDate>
+		</episode>
+		<episode>
+			<number>8</number>
+			<name>Trace Decay</name>
+			<season>1</season>
+			<airDate>2016-11-20</airDate>
+		</episode>
+		<availableOn>
+			<platform>Youtube</platform>
+			<price>1.89</price>
+		</availableOn>
+		<availableOn>
+			<platform>Google Play Movies and TV</platform>
+			<price>1.89</price>
+		</availableOn>
+		<profile>
+			<socialNetwork>Facebook</socialNetwork>
+			<link>www.facebook.com/WestworldHBO</link>
+		</profile>
+		<profile>
+			<socialNetwork>Twitter</socialNetwork>
+			<link>www.twitter.com/westworldhbo</link>
+		</profile>
+		<actor>
+			<name>Evan Rachel Wood</name>
+			<charName>Dolores Abernathy</charName>
+		</actor>
+		<actor>
+			<name>Anthony Hopkins</name>
+			<charName>Dr. Robert Ford</charName>
+		</actor>
+		<actor>
+			<name>Thandie Newton</name>
+			<charName>Maeve Millay</charName>
+		</actor>
+		<actor>
+			<name>Ed Harris</name>
+			<charName>The Man in Black</charName>
+		</actor>
+		<actor>
+			<name>James Marsden</name>
+			<charName>Teddy Flood</charName>
+		</actor>
+		<search>
+			<name>Beyond Westworld</name>
+			<dateStart>1980</dateStart>
+
+		</search>
+		<search>
+			<name>Extant</name>
+			<dateStart>2014</dateStart>
+			<dateEnd>2015</dateEnd>
+		</search>
+		<search>
+			<name>The Exorcist</name>
+			<dateStart>2016</dateStart>
+
+		</search>
+		<search>
+			<name>Timeless</name>
+			<dateStart>2016</dateStart>
+
+		</search>
+		<search>
+			<name>Under the Dome</name>
+			<dateStart>2013</dateStart>
+			<dateEnd>2015</dateEnd>
+		</search>
+		<nEps>10</nEps>
+		<nSeasons>1</nSeasons>
+	</serie>
+
+	<serie id="0003">
+		<title>True Blood</title>
+		<genre>American television series</genre>
+		<rating>
+			<name>IMDb</name>
+			<value>7.9</value>
+		</rating>
+		<rating>
+			<name>RT</name>
+			<value>70</value>
+		</rating>
+		<rating>
+			<name>TVcom</name>
+			<value>8.6</value>
+		</rating>
+		<description>Small-town Louisiana waitress Sookie Stackhouse already
+			is viewed as an oddball by her friends and neighbors, since she can
+			read the minds of those around her. She doesn't exactly help her
+			reputation, though, when she falls for Bill Compton, a 173-year-old
+			vampire who has "come out of the coffin" along with many of his
+			undead comrades now that a new synthetic blood has made it possible
+			for vampires to survive without preying on humans. Still, the
+			conservative locals aren't wild about mortal-vampire liaisons,
+			especially Sookie's boss, Sam Merlotte, who carries a torch for her.
+			"Six Feet Under" creator Alan Ball is behind this series adaptation
+			of best-selling novels by Charlaine Harris.
+		</description>
+		<lastEp>2014-08-24</lastEp>
+		<song>Bad Things</song>
+		<writer>Alan Ball</writer>
+		<writer>Charlaine Harris</writer>
+		<writer>Brian Buckner</writer>
+		<writer>Mark Hudis</writer>
+		<episode>
+			<number>10</number>
+			<name>Thank you</name>
+			<season>7</season>
+			<airDate>2014-08-24</airDate>
+		</episode>
+		<episode>
+			<number>9</number>
+			<name>Love Is To Die</name>
+			<season>7</season>
+			<airDate>2014-08-17</airDate>
+		</episode>
+		<episode>
+			<number>8</number>
+			<name>Almost Home</name>
+			<season>7</season>
+			<airDate>2014-08-10</airDate>
+		</episode>
+		<availableOn>
+			<platform>YouTube</platform>
+			<price>1.89</price>
+		</availableOn>
+		<availableOn>
+			<platform>Google Play Movies and TV</platform>
+			<price>1.89</price>
+		</availableOn>
+		<profile>
+			<socialNetwork>Facebook</socialNetwork>
+			<link>www.facebook.com/HBOTrueBloodBR</link>
+		</profile>
+		<profile>
+			<socialNetwork>Twitter</socialNetwork>
+			<link>www.twitter.com/truebloodhbo</link>
+		</profile>
+		<profile>
+			<socialNetwork>Google+</socialNetwork>
+			<link>plus.google.com/+TrueBlood</link>
+		</profile>
+		<profile>
+			<socialNetwork>Instagram</socialNetwork>
+			<link>www.instagram.com/truebloodhbo</link>
+		</profile>
+		<actor>
+			<name>Anna Paquin</name>
+			<charName>Sookie Stackhouse</charName>
+		</actor>
+		<actor>
+			<name>Alexander Skarsgard</name>
+			<charName>Eric Northman</charName>
+		</actor>
+		<actor>
+			<name>Stephen Moyer</name>
+			<charName>Bill Compton</charName>
+		</actor>
+		<actor>
+			<name>Ryan Kwanten</name>
+			<charName>Jason Stackhouse</charName>
+		</actor>
+		<actor>
+			<name>Rutina Wesley</name>
+			<charName>Tara Thornton</charName>
+		</actor>
+		<actor>
+			<name>Evan Rachel Wood</name>
+			<charName>Sophie-Anne Leclerq</charName>
+		</actor>
+		
+		<search>
+			<name>The Vampire Diaries</name>
+			<dateStart>2009</dateStart>
+		</search>
+		<search>
+			<name>Buffy the Vampire Slayer</name>
+			<dateStart>1997</dateStart>
+			<dateEnd>2003</dateEnd>
+		</search>
+		<search>
+			<name>Game of Thrones</name>
+			<dateStart>2011</dateStart>
+		</search>
+		<search>
+			<name>The Originals</name>
+			<dateStart>2013</dateStart>
+		</search>
+		<search>
+			<name>Six Feet Under</name>
+			<dateStart>2001</dateStart>
+			<dateEnd>2005</dateEnd>
+		</search>
+		<nEps>80</nEps>
+		<nSeasons>7</nSeasons>
+	</serie>
+
+</scatalog>

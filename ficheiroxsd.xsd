@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="scatalog">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="serie" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="serie">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="title" />
+				<xs:element ref="genre" />
+				<xs:element minOccurs="2" maxOccurs="unbounded" ref="rating" />
+				<xs:element ref="description" />
+				<xs:element minOccurs="0" ref="firstEp" />
+				<xs:element minOccurs="0" ref="lastEp" />
+				<xs:element minOccurs="0" ref="song" />
+				<xs:element minOccurs="0" ref="network" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="writer" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="director" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="creator" />
+				<xs:element maxOccurs="unbounded" ref="episode" />
+				<xs:element maxOccurs="unbounded" ref="availableOn" />
+				<xs:element maxOccurs="unbounded" ref="profile" />
+				<xs:element maxOccurs="unbounded" ref="actor" />
+				<xs:element maxOccurs="unbounded" ref="search" />
+				<xs:element ref="nEps" />
+				<xs:element ref="nSeasons" />
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:integer" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="title" type="xs:string" />
+	<xs:element name="genre" type="xs:string" />
+	<xs:element name="rating">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element ref="value" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="value">
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:minInclusive value="0" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="description" type="xs:string" />
+	<xs:element name="firstEp">
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:minInclusive value="1900-01-01" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="lastEp">
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:minInclusive value="1900-01-01" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="song" type="xs:string" />
+	<xs:element name="network" type="xs:string" />
+	<xs:element name="writer" type="xs:string" />
+	<xs:element name="director" type="xs:string" />
+	<xs:element name="creator" type="xs:string" />
+	<xs:element name="episode">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="number" />
+				<xs:element ref="name" />
+				<xs:element ref="season" />
+				<xs:element ref="airDate" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="number">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="season">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="airDate">
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:minInclusive value="1900-01-01" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="availableOn">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="platform" />
+				<xs:element ref="price" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="platform" type="xs:string" />
+	<xs:element name="price">
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:minInclusive value="0" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="profile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="socialNetwork" />
+				<xs:element ref="link" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="socialNetwork" type="xs:string" />
+	<xs:element name="link" type="xs:anyURI" />
+	<xs:element name="actor">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element ref="charName" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="charName" type="xs:string" />
+	<xs:element name="search">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element ref="dateStart" />
+				<xs:element minOccurs="0" ref="dateEnd" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="dateStart">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1900" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="dateEnd">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1900" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="nEps">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="nSeasons">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="name" type="xs:string" />
+</xs:schema>

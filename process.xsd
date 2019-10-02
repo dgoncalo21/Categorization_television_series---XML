@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="aCatalog">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="actor" />
+				<xs:element minOccurs="1" ref="procAtor" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="popActor" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="actor">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element maxOccurs="unbounded" ref="serieTitle" />
+				<xs:element ref="epFeat" />
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:integer" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="serieTitle" type="xs:string" />
+	<xs:element name="epFeat">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="procAtor">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="popActor">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element ref="eps" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="eps">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="name" type="xs:string" />
+</xs:schema>
